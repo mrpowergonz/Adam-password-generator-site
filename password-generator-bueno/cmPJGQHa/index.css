@@ -1,0 +1,87 @@
+body {
+margin: 0;
+text-align: center;
+}
+.card {
+    background: linear-gradient( #002b4d,#219ebc);
+    width: 450px;
+    height: 450px;
+    margin: 70px auto ;
+    border-radius: 5px;
+    padding: 80px 40px;
+    
+}
+header {
+ text-align: center;  
+}
+p {
+    color: lightcyan;
+    font-size: 24px;
+    line-height: 0;
+    margin-bottom: 50px;
+}
+.title {
+    color: #f9ff3d;
+    font-size: 40px;
+}
+span {
+    color: #29f599;
+}
+label {
+  color: #f9ff3d;
+  font-size: 16px;
+  font-weight: bold;
+}
+input[type="number"] {
+  background: #f9ff3d;
+  color: #ff0080;
+  font-weight: bold;
+  border: none;
+  width: 43px;
+  border-radius: 6px;
+  text-align: center;
+  
+}
+
+button {
+    
+    display: block;
+    margin-top: 50px ;
+    margin-left: 130px; 
+    background: #29f599;
+    color: #002b4d;
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 190px;
+    height: 40px;
+}
+.line {
+    margin-top: 20px;
+    border-bottom: 2px solid rgba(0, 43, 77, 0.7);
+}
+.password-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+    
+}
+.password {
+    
+    display: flex;
+    margin: 0 115px;
+    background: #f9ff3d;
+    color: #002b4d;
+    font-weight: bold;
+    border: none;
+    width: 190px;
+    height: 30px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+   line-height: 35px;
+   margin-bottom: 10px;
+}
